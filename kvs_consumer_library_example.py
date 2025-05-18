@@ -25,8 +25,8 @@ logging.basicConfig(format="[%(name)s.%(funcName)s():%(lineno)d] - [%(levelname)
                     level=logging.INFO)
 
 # Update the desired region and KVS stream name.
-REGION='[ENTER_REGION]'
-KVS_STREAM01_NAME = '[ENTER_KVS_STREAM_NAME]'   # Stream must be in specified region
+REGION='[eu-west-2]'
+KVS_STREAM01_NAME = '[YourStreamName]'   # Stream must be in specified region
 
 
 class KvsPythonConsumerExample:
